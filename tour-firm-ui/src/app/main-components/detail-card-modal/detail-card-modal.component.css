@@ -1,0 +1,105 @@
+.modal-content {
+  width: 810px;
+  height: auto;
+
+  padding-left: auto;
+  padding-right: auto;
+}
+
+
+/******  Carousel  ******/
+carousel {
+  width: 780px;
+  height: 460px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+slide {
+  width: 780px;
+  height: 430px;
+}
+
+slide img {
+  width: 780px;
+  height: 430px;
+
+  border-radius: 4px;
+}
+
+
+/******  All photos  ******/
+.all-photos {
+  width: 780px;
+  height: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.all-photos img {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+}
+
+
+/******  Table  ******/
+table {
+  width: 600px;
+  height: auto;
+  background-color: #FFEBCD;
+  font-size: 18px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  border: 1px;
+  border-radius: 4px;
+}
+
+
+table .btn {
+  font-size: 18px;
+}
+
+
+table .btn:focus {
+  border-color: #007bff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0) inset, 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+
+th {
+  color: #007bff;
+  text-align: center;
+}
+
+
+td {
+  text-align: center;
+}
+
+/******  Close btn  ******/
+.closeBtn {
+  width: 135px;
+  height: 60px;
+  background-color: #007bff;
+
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+
+
+.closeBtn:focus {
+  border-color: #007bff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0) inset, 0px 0px 8px rgba(0, 0, 0, 0);
+}

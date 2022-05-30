@@ -1,0 +1,152 @@
+/******  ResultCard  ******/
+.result-card {
+  width: 760px;
+  height: 400px;
+}
+
+
+/******  Card parts  ******/
+.mat-card {
+  width: 760px;
+  height: 330px;
+
+  background-color: #F8F8FF;
+}
+
+
+
+/******  Header  ******/
+.mat-card-header {
+  width: 250px;
+  height: auto;
+}
+
+.mat-card-header img {
+  width: 200px !important;
+  height: 200px !important;
+
+  min-width: 200px !important;
+  min-height: 200px !important;
+
+  border-radius: 10px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/******  Content  ******/
+mat-card-content {
+  width: 280px;
+  height: 298px;
+  padding-top: 8%;
+}
+
+
+.name-rating-number-text {
+  width: auto;
+  height: 30px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #0071c2;;
+
+  transition: 100ms linear;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
+}
+
+.name-rating-number p:hover {
+  color: #ffa500;
+}
+
+.name-rating-number {
+  height: 80px;
+}
+
+rating {
+  color: #ffa500;
+  width: 117px;
+  margin-top: 10px;
+}
+
+.rating-and-number {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.rating-number {
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  background-color: #003da6;
+  color: #ededed;
+
+  border-radius: 3px;
+
+  margin-left: 10px;
+
+}
+
+
+.rating-number p {
+  text-align: center;
+}
+
+
+.building-rating {
+  height: 30px;
+  width: 30px;
+}
+
+/*******  Just to differ them some  *******/
+
+.detail-data {
+  width: 280px;
+  height: 190px;
+}
+
+
+.detail-data p {
+  font-size: 17px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+
+/*******  Actions  *******/
+mat-card-actions {
+  width: 200px;
+  height: auto;
+
+  margin-top: 33%;
+}
+
+mat-card-actions button {
+  font-size: 20px;
+  background-color: #003da6;
+  margin-left: 110px;
+}
+
+mat-card-actions button:focus {
+  border-color: #003da6;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0) inset, 0px 0px 8px rgba(0, 0, 0, 0);
+}
+
+.cost-and-button p {
+  font-size: 18px;
+  font-family: Verdana, Geneva, sans-serif;
+
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 8px;
+}
+
+
+/deep/ .modal-dialog {
+  max-width: 810px !important;
+}

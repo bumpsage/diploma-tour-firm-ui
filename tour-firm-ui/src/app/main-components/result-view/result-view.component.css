@@ -1,0 +1,70 @@
+.result-view {
+  width: 1000px;
+  /*height: 600px;*/
+  height: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+
+.result-view h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 12%;
+  margin-bottom: 3%;
+}
+
+
+img {
+  width: 40px;
+  height: 40px;
+}
+
+/******  Content  ******/
+.content {
+  width: 990px;
+  min-height: 540px;
+  height: auto;
+  margin-top: 20px;
+}
+
+
+/******  App-card-form-view  ******/
+app-card-form-view {
+  width: 760px;
+  height: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  display: block;
+}
+
+
+/******  App-card-form-view  ******/
+.else-template {
+  width: 1000px;
+  /*height: 600px;*/
+  height: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+
+.else-template img {
+  width: 35px;
+  height: 35px;
+}
+
+
+.else-template h1 {
+  width: 528px;
+  font-size: 23px;
+  font-weight: 700;
+  margin-left: 12%;
+  margin-bottom: 3%;
+}

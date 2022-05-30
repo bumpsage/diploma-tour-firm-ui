@@ -1,0 +1,16 @@
+<div class="result-view">
+  <span><h1>Results found: {{liveBuildingList.length}}</h1></span>
+  <div class="content" fxLayout="column" *ngIf="liveBuildingList.length !== 0, else elseBlock">
+    <ng-container *ngFor="let liveBuilding of liveBuildingList">
+      <app-card-form-view [liveBuilding] = "liveBuilding">
+      </app-card-form-view>
+    </ng-container>
+  </div>
+
+  <ng-template #elseBlock>
+    <div class="else-template" fxLayout="row" *ngIf="isFiltered">
+      <h1>Unfortunately, we don't have any offers for you</h1>
+      <img src="assets/images/Sad smile.jpg" alt="temp">
+    </div>
+  </ng-template>
+</div>
